@@ -7,7 +7,6 @@ if(isset($_GET['action'])) { $action   = (int)$_GET['action']; }
 # Variables MUST BE STRINGS A-Z
   if(!isset($_POST['_action_']))  { $_POST['_action_'] = FALSE;  }
 
-if (!isset($menu)) { $menu = 1; }
 
 
 print '
